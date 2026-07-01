@@ -11,12 +11,6 @@ An end-to-end Machine Learning web application that predicts the resale price of
 
 ---
 
-## 🔗 Project Links
-* **Live Web Application:** [https://car-price-prediction-app-00au.onrender.com](https://car-price-prediction-app-00au.onrender.com)
-* **GitHub Repository:** [https://github.com/AkshatGarg2005/car-price-prediction-app](https://github.com/AkshatGarg2005/car-price-prediction-app)
-
----
-
 ## 🛠️ Tech Stack & Ecosystem
 * **Core Language:** Python 3.10
 * **Machine Learning & Data Processing:** Scikit-learn, Pandas, NumPy
@@ -105,10 +99,3 @@ python app.py
 Once initialized, navigate to `http://127.0.0.1:5000` inside your browser to interact with the application locally.
 
 ---
-
-## 🚀 Live Cloud Deployment
-
-The architecture is configured for continuous delivery via Git tracking connected directly to a cloud infrastructure cluster hosted on **Render**:
-
-* The production server boots up efficiently using a standard Linux container layer execution guided by the entry rules defined inside the project `Procfile`.
-* All connections parse clean `POST` form request arrays, routing calculations safely away from client viewpoints directly through the cloud-based `car_price_model.pkl` matrix without any hardcoded fallback conditions.
